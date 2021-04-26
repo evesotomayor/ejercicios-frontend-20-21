@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="app">
+        <p class="saludo" :style="{fontSize: tamano+'px', backgroundColor: color}">Hola {{nombre}}, bienvenides</p>
+        <label>Su nombre</label>
+        <input type="text" v-model="nombre"><br>
+        <label>Tamaño letra</label>
+        <input type="range" min="8" max="72" v-model.number="tamano">
+        {{tamano}}px<br>
+        <label>Color fondo</label>
+        <input type="color" v-model="color">{{color}}
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
