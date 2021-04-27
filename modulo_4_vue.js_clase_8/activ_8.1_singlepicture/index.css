@@ -1,0 +1,12 @@
+.radios {
+    display: inline-block;
+    vertical-align: top;
+}
+.mono {
+    display: inline-block;
+    height: 5rem;
+}
+.mono > img {
+    height: 100%;
+    
+}
