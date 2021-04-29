@@ -1,0 +1,30 @@
+
+.ejemplo {
+    box-shadow: inset 0px 5px 5px 0px rgba(230 10 10 / 90%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 32px;
+    border-radius: 8px;
+}
+
+.demostracion {
+    border: 1px solid black;
+    height: 96px;
+    width: 512px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#app > div > input[type="range"] {
+    width: 300px;
+  }
+  
+  #app > div > label {
+    font-size: 0.8rem;
+    width: 80px;
+    display: inline-block;
+  }
+  
