@@ -1,0 +1,43 @@
+.clase0 {
+    background-color: yellow;
+    width: 6rem;
+    height: 5rem;
+}
+
+.clase1 {
+    background-color: blue;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 15px;
+    color: white;
+}
+
+.clase2 {
+    background-color: plum;
+    width: 7rem;
+    height: 6rem;
+    border-radius: 20px;
+    color: white;
+}
+
+.clase3 {
+    background-color: yellow;
+    width: 6rem;
+    height: 9rem;
+    border-radius: 20px;
+}
+
+.clase4 {
+    background-color: blue;
+    width: 8rem;
+    height: 8rem;
+    color: white;
+}
+
+.clase5 {
+    background-color: red;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 20px;
+    color: white;
+}
