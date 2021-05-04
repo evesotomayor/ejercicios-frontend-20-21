@@ -1,0 +1,12 @@
+.imagen {
+    display: block;
+    max-width: 350px;
+    height: 150px;
+    border: brown;
+    text-align: center;
+    padding: 5px;
+    border-style: dotted;
+}
+.imagen > img {
+    height: 100%;
+}
